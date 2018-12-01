@@ -1,28 +1,20 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
-</html>
+<h2>Data Science Portfolio</h2>
+This is an index page of sorts for all my Data Science projects. The links go to the reports/explanations I have written for these projects in the form of Jupyter Notebooks/Markdowns. The detailed codes for all these projects is available in my GitHub repositories, with varying degrees of sanity and sanitation.
+
+Data used for all these projects is real-world data with free license.
+<h3>Projects</h3>
+<ol>
+ 	<li><a href="https://github.com/apoorvabhide/ipl_man_of_the_match_final/blob/master/ipl_mom_markdown.md"><strong>Predicting the man of the match in an IPL game</strong></a></li>
+</ol>
+<p style="padding-left: 30px;">A classification project to predict who the Man of the Match will be from <a href="https://www.kaggle.com/manasgarg/ipl">ball-by-ball data</a> of IPL matches. Final model is a logistic regression model that predicts the man of the match of a given match. <strong>F1 score of 70%.</strong></p>
+<p style="padding-left: 30px;">2. <a href="http://nbviewer.jupyter.org/github/apoorvabhide/amazon_reviews_classification/blob/f4f3fda655331aa21533fb55456925fe4667670a/amazon_review_classification_markdown.ipynb">Predicting Amazon Ratings from Text Reviews</a></p>
+<p style="padding-left: 30px;">Classification project to predict how many stars (out of 5) a user will give a product, based on the text of the review they write. Tried out TF-IDF and Bag of Words vectoriser with SVM and Naive Bayes classifiers. <strong>TF-IDF with an SVM classifier worked best. Accuracy was 55% for a 5-way classification.</strong></p>
+<p style="padding-left: 30px;">3. <a href="http://nbviewer.jupyter.org/github/apoorvabhide/crime_and_the_weather/blob/8336cb916de1a5437a76d1f695b2b137a7730300/The%20surprising%20link%20between%20weather%20and%20crime.ipynb">Investigating the link between crime and weather</a></p>
+<p style="padding-left: 30px;">Collated daily weather data and crime report data from nine North American cities to verify surprising link between crime and weather. Did a simple t-test on all of them using lm(). <strong>Effect of weather on crime was found to be statistically significant in all nine cities.</strong></p>
+<p style="padding-left: 30px;">4. <a href="http://nbviewer.jupyter.org/github/apoorvabhide/hourly_power_consumption/blob/f0a1da2c74a39925028c2f8ef94e418ce7762105/Hourly%20Energy%20Consumption%20-%20Time%20Series%20Forecasting.ipynb">Hourly power consumption forecasting </a></p>
+<p style="padding-left: 30px;">Part of practising what I learnt about time series forecasting from Prof. Rob Hyndman's online book Forecasting: Principles and Practice. Project to forecast the hourly power consumption of a Pittsburgh-based power supplier, the Duquesne Light Company. Tried out different families of models such as MSTL, TBATS, Dynamic Harmonic Regression, Prophet. <strong>Best-performing model turned out to be a covariate model using temperature data to predict power consumption. Achieved 49% reduction in RMSE over mean baseline.</strong></p>
+<p style="padding-left: 30px;">5. <a href="http://nbviewer.jupyter.org/github/apoorvabhide/rajya_sabha_gender/blob/115e79b5510335b6d70380e29838460280128ec7/Gender%20(Mis)Representation%20in%20the%20Indian%20Parliament,%20Explained%20in%204%20charts.ipynb">Gender Disparity in the Rajya Sabha</a></p>
+<p style="padding-left: 30px;">Analysed data from the Indian government at data.gov.in as well as Rajya Sabha data to investigate the history of gender disparity in the Rajya Sabha, the Upper House of the Indian Parliament. Used Latent Dirichlet Allocation (LDA) to perform topic modeling on the questions asked by members in the house during 'Question Hour', to compare how the questions asked by the male and female representatives may be different. Article can be found <a href="https://apoorvabhide.com/gender-representation-rajya-sabha/">here</a>.</p>
+For chatting about the portfolio/collaboration/suggestions/topics I should be interested in learning more about, please shoot me electronic mail through the interwebz at apoorva.bhide95@gmail.com.
+
+&nbsp;
