@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: #cedeec; */
+}
+p{
+    padding: 5px 20px;
+}
+h2{
+    padding: 10px 20px;
+}
+h3{
+    padding: 10px 20px;
+}
+
+h1{
+    background: gray;
+    margin: 0;
+    color: white;
+    font-size: 39px;
+    padding: 10px 20px;
+}
